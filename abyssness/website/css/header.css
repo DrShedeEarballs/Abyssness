@@ -1,0 +1,77 @@
+@font-face {
+    font-family: mainArticle;
+    src: url(fonts/Walbaum-Fraktur-Bold.ttf);
+}
+
+@font-face {
+    font-family: scpTypeWriter1;
+    src: url(fonts/Adler.ttf);
+}
+
+@font-face {
+    font-family: scpTypeWriter2;
+    src: url(fonts/rm_typerighter_old.ttf);
+}
+
+@font-face {
+    font-family: subArticle;
+    src: url(fonts/OldStandardTT-Bold.ttf);
+}
+
+#header2 {
+    border: 5px;
+    border-style: solid;
+}
+
+
+#nav {
+    text-align: center;
+    border: 5px;
+    border-style: double;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+}
+
+#navstuff {
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-family: subArticle;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#sign {
+    float: right;
+}
+
+#intro {
+    text-align: center;
+}
+
+#intro h1 {
+    font-family: mainArticle;
+    font-size: 100px;
+    text-decoration: underline;
+}
+
+#intro h3 {
+    padding-bottom: 20px;
+    font-family: scpTypeWriter1;
+}

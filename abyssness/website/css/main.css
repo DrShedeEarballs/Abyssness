@@ -1,0 +1,143 @@
+@font-face {
+    font-family: mainArticle;
+    src: url(fonts/Walbaum-Fraktur-Bold.ttf);
+}
+
+@font-face {
+    font-family: scpTypeWriter1;
+    src: url(fonts/Adler.ttf);
+}
+
+@font-face {
+    font-family: scpTypeWriter2;
+    src: url(fonts/SpecialElite.ttf);
+}
+
+@font-face {
+    font-family: subArticle;
+    src: url(fonts/OldStandardTT-Bold.ttf);
+}
+
+body {
+    background-color: #C8A681;
+    background-image: url(cssimg/wrinky_paper.jpg);
+    background-attachment: scroll;
+}
+
+h1 {
+    text-decoration: none;
+    font-family: cursive;
+}
+
+h2 {
+    text-decoration: none;
+    font-family: cursive;
+}
+
+h3 {
+    text-decoration: none;
+    font-family: subArticle;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: scpTypeWriter1;
+}
+
+#subIntro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#subIntro h1 {
+    font-family: subArticle;
+    font-variant: small-caps;
+}
+
+#desc {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+#desc p {
+    font-family: scpTypeWriter2;
+    font-size: 20px;
+}
+
+#introDesc {
+    text-align: center;
+    border: 5px;
+    border-top-style: double;
+    border-bottom-style: double;
+    margin: 50px;
+    margin-top: 5px;
+}
+
+#introDesc p {
+    font-family: scpTypeWriter2;
+    font-size: 18px
+}
+
+#mainDesc {
+    float: left;
+    width: 33%;
+    padding: 30px;
+    border: 5px;
+    border-style: dashed;
+    margin: 5px;
+}
+
+#mainDesc h3 {
+    padding-bottom: 3px;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+}
+
+#functDesc {
+    float: left;
+    width: 33%;
+    padding: 30px;
+    border: 5px;
+    border-style: dashed;
+    margin: 5px;
+}
+
+#functDesc h3 {
+    padding-bottom: 40px;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+}
+
+#workiestFella {
+    width: 40%;
+    padding: 10px;
+    border: 5px;
+    border-style: dashed;
+    margin: 5px;
+}
+
+#workiestFella h1 {
+    font-family: subArticle;
+    font-variant: small-caps;
+}
+
+#workiestFella h3 {
+    border-bottom: 2px;
+    border-bottom-style: solid;
+}
+
+#wlf {
+    float: right;
+    padding: 5px;
+    border: 10px;
+    border-style: double;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+

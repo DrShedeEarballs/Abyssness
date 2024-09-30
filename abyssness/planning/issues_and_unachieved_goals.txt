@@ -1,0 +1,12 @@
+I ran into an issue very early on with my computer not being able to register the mysqli or PDO modules, even though they are present. 
+I tested a lot of things to see if i could get it working and even got my dad who has a good many years of programming experience, and we got nowhere :<
+Nothing that I could find on the internet would fix it, I tried reinstalling everything, changing around php.ini and apache files etc. just to get no results. 
+As a result I was completely unable to use easier PDO methods when dealing with my database and the procedual mysql_... methods.
+
+I am very sorry for the messy code, I'm not sure how to fix it lol
+
+I wasn't able to get a search bar functioning for the employees site. 
+
+The site is ugly on purpose, i swear.
+
+I gave up on trying to make the divs look okay in the employees and hiring section and just used position: absolute; which might make it look funky.
